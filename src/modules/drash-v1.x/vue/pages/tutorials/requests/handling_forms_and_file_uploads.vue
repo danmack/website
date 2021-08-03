@@ -56,6 +56,8 @@ page(
   p Getting a file from a form can be done using the following call:
   code-block(:header="false" language="typescript")
     | const file = this.request.getBodyFile("file_name");
+    | const files = this.request.getBodyFiles("file_name");
+  p Note that <code>.getBodyFiles()</code> only needs to be used if an input element has the <code>multiple</code> attribute, as it will allow you to retrieve all uploaded files for that name, whereas <code>getBodyFile()</code> would only need to be used when retrieving a file form an input element that doesn't have the <code>multiple</code> attribute.
   p In this tutorial, you will be able to go to:
   ul
     li go to your browser;
