@@ -23,9 +23,9 @@ export const configs = {
   },
   "drash": {
     "base_url": "/drash/v1.x",
-    "latest_version": "v1.5.0",
-    "latest_url_deno_land": "https://deno.land/x/drash@v1.5.0/mod.ts",
-    "latest_url_nest_land": "https://x.nest.land/deno-drash@v1.5.0/mod.ts",
+    "latest_version": "v1.5.1",
+    "latest_url_deno_land": "https://deno.land/x/drash@v1.5.1/mod.ts",
+    "latest_url_nest_land": "https://x.nest.land/deno-drash@v1.5.1/mod.ts",
     "versions": [
       "v1.x"
     ]
