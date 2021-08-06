@@ -1,12 +1,5 @@
 # Drash Land Website
 
-## Requirements
-
-Please ensure you have the following installed 
-
-- Node v14.x (latest): https://nodejs.org/en/download/
-- Deno v1.x (latest): https://deno.land
-
 ## Running The Development Environment
 
 1. Install `yarn` CLI.
