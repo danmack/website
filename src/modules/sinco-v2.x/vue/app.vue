@@ -28,7 +28,8 @@ export default {
             "Waiting": "/tutorials/waiting",
             "Custom Assertions": "/tutorials/custom-assertions",
             "Evaluate The Page": "/tutorials/evaluate-page",
-            "Using Within Docker": "/tutorials/using-within-docker"
+            "Using Within Docker": "/tutorials/using-within-docker",
+            "Take Screenshots": "/tutorials/take-screenshots",
           }
         },
         module: "sinco",
