@@ -39,14 +39,14 @@ page(
   p Example usage would be:
   ul
     li <code>.takeScreenshot("./screenshots");</code>
-    li <code>.takeScreenshot("./screenshots", { filename: "home_page.png", selector: "body > main", format: "png" });</code>
+    li <code>.takeScreenshot("./screenshots", { fileName: "home_page.png", selector: "body > main", format: "png" });</code>
   p The <code>.takeScreenshot</code> method will take any valid selector for <code>selector</code>.
   p If the directory for where to save the screenshot does not exist, Sinco will throw an error. By default, passing in one parameter will save a screenshot to the specified directory, where the filename is timestamped, and the format is JPEG. 
   p The method also takes an optional second parameter, which allows you to specify:
   ul
     li <code>selector</code> - If specified, Sinco will only take a screenshot of that element (and of course all of its children), as opposed to the whole page. This is useful if you might only want to see the login form, or how a single element looks.
     li <code>fileName</code> - If specified, this will be what your new image file will be named. For example, say you write <code>.takeScreenshot("./screenshots", { filename: "login_form.jpeg" })</code>, the screenshot will be saved to <code>./screenshots/login_form.jpeg</code>.
-    li <code>format</code> - The format of the image, eg jpeg, png or webp. The default is jpeg.
+    li <code>format</code> - The format of the image, eg jpeg, png or webp. The default is jpeg. Note that Firefox doesn't support the webp format as of writing this, so an error will be thrown if you are using a firefox client and specify the webp format.
     li <code>quality</code> - The compression quality of the screenshot. The maximum is 100, and the default is 80.
   p In this tutorial, you will:
   ul
