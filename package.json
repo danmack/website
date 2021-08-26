@@ -15,21 +15,21 @@
     "@babel/core": "7.x",
     "axios": "0.x",
     "babel-loader": "8.x",
-    "css-loader": "3.x",
-    "markdown-it": "11.x",
-    "node-sass": "4.x",
+    "css-loader": "6.x",
+    "markdown-it": "12.x",
+    "node-sass": "6.x",
     "prismjs": "1.x",
     "pug": "3.x",
     "pug-plain-loader": "1.x",
-    "sass-loader": "9.x",
+    "sass-loader": "12.x",
     "scss-loader": "0.x",
-    "style-loader": "1.x",
+    "style-loader": "3.x",
     "vue": "2.x",
     "vue-loader": "15.x",
     "vue-router": "3.x",
     "vue-style-loader": "4.x",
     "vue-template-compiler": "2.x",
-    "webpack": "4.x",
-    "webpack-cli": "3.x"
+    "webpack": "5.x",
+    "webpack-cli": "4.x"
   }
 }
