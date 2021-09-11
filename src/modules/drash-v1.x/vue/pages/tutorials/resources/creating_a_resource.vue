@@ -35,7 +35,7 @@ page(
   p Drash defines resources according to the MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web" target="_BLANK">https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web</a>
   p Unlike most other frameworks, Drash uses resource classes to handle requests and send responses. So, instead of defining a route with a specific HTTP method (e.g., <code>app.get()</code>), creating a controller class, and mapping that controller class to that route; you create a resource class, define its routes in its <code>paths</code> property, and define its HTTP methods as <code>public</code> functions.
   p You create a resource by extending the <code>Drash.Http.Resource</code> class. This is the base class for all resources. You can define your own base resource class, but it MUST extend the <code>Drash.Http.Resource</code> class.
-  p Drash servers only register the resources that are specified in their <code>resources</code> config. In the example code below, the <code>HomeResource</code> class is the only resource that will be regisrered by the server.
+  p Drash servers only register the resources that are specified in their <code>resources</code> config. In the example code below, the <code>HomeResource</code> class is the only resource that will be registered by the server.
   code-block(:header="false" language="typescript" line_highlight="6")
     | import { Drash } from "https://deno.land/x/drash@{{ $conf.drash.latest_version }}/mod.ts";
     | 
